@@ -2,7 +2,7 @@
 const LoadingPage = () => {
     return (
         <div>
-            Loading.....
+            Loading......
         </div>
     );
 };
