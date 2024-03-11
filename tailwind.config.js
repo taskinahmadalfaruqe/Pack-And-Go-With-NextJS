@@ -14,9 +14,9 @@ module.exports = {
       },
       colors: {
         'PRimaryColor': '#007F5F',
-        'ParagraphColor':'#616161',
-        'HeadingColor':'#1E1E1E',
-        'WhiteColor':'#fff',
+        'ParagraphColor': '#616161',
+        'HeadingColor': '#1E1E1E',
+        'WhiteColor': '#fff',
       },
     },
   },
