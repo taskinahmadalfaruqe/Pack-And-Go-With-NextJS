@@ -34,6 +34,7 @@ module.exports = {
         'ParagraphColor': '#616161',
         'HeadingColor': '#1E1E1E',
         'WhiteColor': '#FFF',
+        'NavbarColor': '#818181',
       },
       
     },

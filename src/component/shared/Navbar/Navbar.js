@@ -7,7 +7,7 @@ import Routes from './Routes';
 const Navbar = () => {
 
     return (
-        <div className="flex justify-between items-center bg-purple-500 py-2">
+        <div className="flex justify-between items-center  py-2">
             <div className='flex items-center'>
                 <Image
                     alt='site_logo'
@@ -18,7 +18,7 @@ const Navbar = () => {
                 >
 
                 </Image>
-                <p>Pack & Go</p>
+                <p className='text-HeadingColor font-semibold text-xl'>Pack & Go</p>
             </div>
             <div>
                 <Routes></Routes>
