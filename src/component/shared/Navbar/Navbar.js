@@ -7,7 +7,7 @@ import Routes from './Routes';
 const Navbar = () => {
 
     return (
-        <div className="flex justify-between items-center  py-2">
+        <div className="flex justify-between items-center  py-2 container">
             <div className='flex items-center'>
                 <Image
                     alt='site_logo'

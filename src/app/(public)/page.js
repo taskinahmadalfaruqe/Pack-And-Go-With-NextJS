@@ -1,10 +1,12 @@
-import Navbar from '@/component/shared/Navbar/Navbar';
 import React from 'react';
+
+export const metadata = {
+  title: 'Pack & Go',
+};
 
 const HomePage = () => {
   return (
     <div className='container'>
-      <Navbar></Navbar>
       This Is Home Page
     </div>
   );
