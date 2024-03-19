@@ -1,9 +1,10 @@
 import React from 'react';
+import BannerImage from './BannerImage';
 
 const Banner = () => {
     return (
         <div>
-            This is banner.
+            <BannerImage></BannerImage>
         </div>
     );
 };

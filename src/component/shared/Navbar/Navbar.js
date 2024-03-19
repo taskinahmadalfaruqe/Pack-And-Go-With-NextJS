@@ -3,6 +3,7 @@ import React from 'react';
 import logo from '@/assets/logo.png'
 import Image from 'next/image';
 import Routes from './Routes';
+import CommonButton from '../CommonButton/CommonButton';
 
 const Navbar = () => {
 
@@ -22,6 +23,9 @@ const Navbar = () => {
             </div>
             <div>
                 <Routes></Routes>
+            </div>
+            <div>
+                <CommonButton ButtonValue={'Booking'} NavegateLink={'/booking'}></CommonButton>
             </div>
         </div>
     );
