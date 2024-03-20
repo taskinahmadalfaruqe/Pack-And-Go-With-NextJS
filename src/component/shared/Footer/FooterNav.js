@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const FooterNav = () => {
     return (
-        <div className='max-w-xs flex flex-col space-y-5'>
+        <div className=' flex flex-col space-y-5'>
             <div>
                 <LogoSection></LogoSection>
             </div>
