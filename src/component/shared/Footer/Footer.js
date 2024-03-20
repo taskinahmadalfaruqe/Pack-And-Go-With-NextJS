@@ -1,10 +1,11 @@
 import React from 'react';
+import FooterNav from './FooterNav';
 
 const Footer = () => {
     return (
-        <div className='bg-PrimaryColor'>
+        <div className='bg-WhiteColor py-24'>
             <div className='container'>
-                This is Footer
+                <FooterNav></FooterNav>
             </div>
         </div>
     );
