@@ -9,10 +9,10 @@ export const metadata = {
 
 const HomePage = () => {
   return (
-    <div >
+    <div>
       <Banner></Banner>
-      <PopularDestination></PopularDestination>
       <TravelBenefit></TravelBenefit>
+      <PopularDestination></PopularDestination>
     </div>
   );
 };

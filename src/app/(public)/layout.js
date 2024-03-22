@@ -4,7 +4,7 @@ import React from 'react';
 
 const PublicLayout = ({ children }) => {
     return (
-        <div>
+        <div className='font-Popoins'>
             <Navbar></Navbar>
             {children}
             <Footer></Footer>
