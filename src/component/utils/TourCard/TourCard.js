@@ -1,4 +1,4 @@
-import CommonButton from '@/component/shared/CommonButton/CommonButton';
+import CommonButton from '@/component/utils/CommonButton/CommonButton';
 import Image from 'next/image';
 import React from 'react';
 import TourImage01 from '@/assets/paris.jpg'

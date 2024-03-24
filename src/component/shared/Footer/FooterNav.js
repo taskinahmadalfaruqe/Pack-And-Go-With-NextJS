@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SlSocialPintarest } from "react-icons/sl";
-import LogoSection from '../LogoSection/LogoSection';
+import LogoSection from '../../utils/LogoSection/LogoSection';
 import Link from 'next/link';
 
 const FooterNav = () => {

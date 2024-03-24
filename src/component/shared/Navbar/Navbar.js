@@ -1,7 +1,7 @@
 import React from 'react';
 import Routes from './Routes';
-import CommonButton from '../CommonButton/CommonButton';
-import LogoSection from '../LogoSection/LogoSection';
+import CommonButton from '../../utils/CommonButton/CommonButton';
+import LogoSection from '../../utils/LogoSection/LogoSection';
 
 const Navbar = () => {
 

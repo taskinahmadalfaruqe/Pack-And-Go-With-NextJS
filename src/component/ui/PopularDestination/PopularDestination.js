@@ -1,4 +1,4 @@
-import CommonTitle from '@/component/shared/CommonTitle/CommonTitle';
+import CommonTitle from '@/component/utils/CommonTitle/CommonTitle';
 import TourCard from '@/component/utils/TourCard/TourCard';
 import React from 'react';
 
