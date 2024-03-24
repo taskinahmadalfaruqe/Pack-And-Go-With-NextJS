@@ -3,13 +3,13 @@ import Image from 'next/image';
 import React from 'react';
 import TourImage01 from '@/assets/paris.jpg'
 
-const TourCard = () => {
+const TourCard = ({TourTitle,TourDescription,ImageLInk}) => {
     return (
         <div className='flex space-y-3 flex-col p-5  rounded-md shadow-lg shadow-PrimaryColor/20'>
             <div>
                 <Image
                     alt='Tour Image'
-                    src="https://i.ibb.co/MSR0zkx/paris.jpg"
+                    src={ImageLInk}
                     width={300}
                     height={50}
                     className='rounded-md'
@@ -17,8 +17,8 @@ const TourCard = () => {
                 </Image>
             </div>
             <div>Retting</div>
-            <div className='text-HeadingColor font-semibold font-Truculenta'>Paris, France</div>
-            <div>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam</div>
+            <div className='text-PrimaryColor font-semibold font-Truculenta'>{TourTitle}</div>
+            <div>{TourDescription}</div>
             <div>Price: <span className='text-lg font-bold text-HeadingColor'>$150</span>/Person</div>
             <CommonButton
                 ButtonValue={'Booking'}
