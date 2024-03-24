@@ -9,6 +9,9 @@ const PopularDestination = () => {
                 SectionDescription={"We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes."}
             >
             </CommonTitle>
+            <div>
+                
+            </div>
         </div>
     );
 };
