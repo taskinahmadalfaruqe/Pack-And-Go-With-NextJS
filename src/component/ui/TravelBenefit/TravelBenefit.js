@@ -3,7 +3,7 @@ import React from 'react';
 
 const TravelBenefit = () => {
     return (
-        <div>
+        <div className='bg-HeadingColor/5 py-14 '>
             <CommonTitle
                 SectionTitle={'Travel Benefit For User'}
                 SectionDescription={'We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.'}

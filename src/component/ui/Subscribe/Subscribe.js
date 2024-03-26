@@ -4,7 +4,7 @@ import CommonTitle from '@/component/utils/CommonTitle/CommonTitle';
 
 const Subscribe = () => {
     return (
-        <div className='bgImage  mt-10 py-[100px]'>
+        <div className='bgImage py-[100px]'>
             <div className="container text-WhiteColor max-w-lg">
                 <div className='flex gap-5 flex-col text-center mx-auto '>
                     <div className='text-2xl font-semibold capitalize font-Truculenta'>
