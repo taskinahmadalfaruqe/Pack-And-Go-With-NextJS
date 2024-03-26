@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'
-import CommonTitle from '@/component/utils/CommonTitle/CommonTitle';
+
 
 const Subscribe = () => {
     return (
