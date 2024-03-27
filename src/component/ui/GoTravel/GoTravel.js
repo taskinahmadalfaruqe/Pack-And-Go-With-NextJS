@@ -12,7 +12,7 @@ const GoTravel = () => {
                         SmallTitle={'Go Travel, Discover Remember Us'}
                         SmallDescription={"We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes."}
                     ></SmallTitle>
-                    <div className='max-w-sm space-y-4 mt-2'>
+                    <div className='max-w-md space-y-4 mt-2'>
 
                         <div className='flex gap-2 items-center justify-start'>
                             <div>

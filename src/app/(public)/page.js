@@ -1,6 +1,7 @@
 import Banner from '@/component/ui/Banner/Banner';
 import GoTravel from '@/component/ui/GoTravel/GoTravel';
 import PopularDestination from '@/component/ui/PopularDestination/PopularDestination';
+import SelectedDestination from '@/component/ui/SelectedDestination/SelectedDestination';
 import Subscribe from '@/component/ui/Subscribe/Subscribe';
 import TravelBenefit from '@/component/ui/TravelBenefit/TravelBenefit';
 import React from 'react';
@@ -16,6 +17,7 @@ const HomePage = () => {
       <TravelBenefit></TravelBenefit>
       <PopularDestination></PopularDestination>
       <GoTravel></GoTravel>
+      <SelectedDestination></SelectedDestination>
       <Subscribe></Subscribe>
     </div>
   );
