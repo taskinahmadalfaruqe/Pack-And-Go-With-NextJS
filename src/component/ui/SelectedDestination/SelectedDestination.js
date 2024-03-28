@@ -16,6 +16,9 @@ const SelectedDestination = () => {
                         NavegateLink={"/tour"}
                     ></CommonButton>
                 </div>
+                <div>
+                    h
+                </div>
             </div>
         </div>
     );
