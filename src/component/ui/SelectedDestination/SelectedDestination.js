@@ -18,6 +18,7 @@ const SelectedDestination = () => {
                 </div>
                 <div>
                     haaa
+                    <div className='w-10 bg-red-300'>aa</div>
                     <div></div>
                 </div>
             </div>
