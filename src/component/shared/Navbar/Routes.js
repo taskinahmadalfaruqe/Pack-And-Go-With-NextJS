@@ -6,7 +6,7 @@ const Routes = () => {
 
     return (
         <div className='flex gap-5 text-NavbarColor'>
-            <Link
+            <Link 
                 href={'/'}
             >
                 Home
