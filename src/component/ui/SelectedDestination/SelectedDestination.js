@@ -9,7 +9,7 @@ import image3 from "../../../assets/Combined Shape.png";
 const SelectedDestination = () => {
   return (
     <div className="py-14">
-      <div className="container flex gap-10 justify-center items-center">
+      <div className="container flex gap-10 justify-center items-center bg-yellow-400">
         <div className="space-y-5 w-[50%]">
           <SmallTitle
             SmallTitle={"We have more than 1000 selected Destination"}
