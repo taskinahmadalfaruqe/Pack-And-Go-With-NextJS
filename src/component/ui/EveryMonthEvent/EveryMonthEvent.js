@@ -1,13 +1,37 @@
 import SmallTitle from '@/component/utils/SmallTitle/SmallTitle';
+import Image from 'next/image';
 import React from 'react';
+import image1 from "../../../assets/Month01.jpg"
+import image2 from "../../../assets/Month02.jpg"
+import image3 from "../../../assets/Combined Shape.png"
 
 const EveryMonthEvent = () => {
     return (
-        <div className='py-14'>
-            <div className='container flex gap-10 justify-between items-center w-full bg-yellow-300'>
-                <div className='min-w-[570px] min-h-[572px] bg-red-300'>
-                    Hi
-                </div>
+        <div className='py-8'>
+            <div className='container flex gap-10 justify-between items-center w-full'>
+            <div className="h-[600px] p-4 w-[50%] relative">
+          <Image
+            alt="Image"
+            height={150}
+            width={150}
+            src={image3}
+            className="absolute bottom-[20%] left-[19%]"
+          ></Image>
+          <Image
+            alt="Image"
+            height={350}
+            width={350}
+            src={image1}
+            className="rounded-xl border-[4px] border-WhiteColor absolute top-4 left-4"
+          ></Image>
+          <Image
+            alt="Image"
+            height={350}
+            width={350}
+            src={image2}
+            className="rounded-xl border-[4px] border-WhiteColor absolute bottom-4 right-4"
+          ></Image>
+        </div>
                 <div className='min-w-[490px] space-y-5' >
                     <SmallTitle SmallTitle={'Always give you promo on every Month / Event'} SmallDescription={'We make sure give you a lot of promo every motnh or event based on calendar. If you want, just Subscribe on Newsletter.'}></SmallTitle>
                     <div className=' flex flex-col'>
