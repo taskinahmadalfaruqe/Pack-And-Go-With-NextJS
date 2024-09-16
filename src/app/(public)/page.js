@@ -1,6 +1,7 @@
 import Banner from '@/component/ui/Banner/Banner';
 import EveryMonthEvent from '@/component/ui/EveryMonthEvent/EveryMonthEvent';
 import GoTravel from '@/component/ui/GoTravel/GoTravel';
+import MoneyBack from '@/component/ui/MoneyBack/MoneyBack';
 import PopularDestination from '@/component/ui/PopularDestination/PopularDestination';
 import SelectedDestination from '@/component/ui/SelectedDestination/SelectedDestination';
 import Subscribe from '@/component/ui/Subscribe/Subscribe';
@@ -20,6 +21,7 @@ const HomePage = () => {
       <GoTravel></GoTravel>
       <SelectedDestination></SelectedDestination>
       <EveryMonthEvent></EveryMonthEvent>
+      <MoneyBack></MoneyBack>
       <Subscribe></Subscribe>
     </div>
   );

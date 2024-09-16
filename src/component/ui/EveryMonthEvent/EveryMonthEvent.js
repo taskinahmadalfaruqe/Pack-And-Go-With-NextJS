@@ -39,7 +39,7 @@ const EveryMonthEvent = () => {
                             <div className='flex gap-2 p-1 flex-1  items-center'>
                                 <div>
                                     <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
 
                                 </div>
@@ -48,7 +48,7 @@ const EveryMonthEvent = () => {
                             <div className='flex gap-2 p-1 flex-1  items-center'>
                                 <div>
                                     <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </div>
                                 <div>Cancelled refund 100%</div>
@@ -58,7 +58,7 @@ const EveryMonthEvent = () => {
                             <div className='flex gap-2 p-1 flex-1 items-center'>
                                 <div>
                                     <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </div>
                                 <div>Up 50% on your birthday</div>
@@ -66,7 +66,7 @@ const EveryMonthEvent = () => {
                             <div className='flex gap-2 p-1 flex-1 items-center'>
                                 <div>
                                     <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </div>
                                 <div>Reward for 1000% Points</div>
@@ -76,7 +76,7 @@ const EveryMonthEvent = () => {
                             <div className='flex gap-2 p-1 flex-1 items-center'>
                                 <div>
                                     <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 7L5 11L15 1" stroke="#007F5F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </div>
                                 <div>Cashback 10% via OVO</div>

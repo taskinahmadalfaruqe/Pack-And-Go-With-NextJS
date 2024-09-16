@@ -6,7 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wdth,wght@12..72,75..125,100..900&display=swap');
 
-
+.container{
+  /* background-color: aqua; */
+}
 
 /* :root {
   --foreground-rgb: 0, 0, 0;

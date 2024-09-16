@@ -8,7 +8,7 @@ export default function BannerImage() {
       src={BannerImg}
       placeholder="blur"
       quality={100}
-      sizes="70vh"
+      sizes="50vh"
       style={{
         objectFit: 'cover',
       }}

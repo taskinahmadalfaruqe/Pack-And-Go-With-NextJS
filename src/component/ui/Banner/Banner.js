@@ -3,7 +3,7 @@ import BannerImage from './BannerImage';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='flex justify-center items-center'>
             <BannerImage></BannerImage>
         </div>
     );
