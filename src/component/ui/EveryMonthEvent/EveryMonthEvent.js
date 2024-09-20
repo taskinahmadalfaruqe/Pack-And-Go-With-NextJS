@@ -31,6 +31,7 @@ const EveryMonthEvent = () => {
             src={image2}
             className="rounded-xl border-[4px] border-WhiteColor absolute bottom-4 right-4"
           ></Image>
+
         </div>
                 <div className='min-w-[490px] space-y-5' >
                     <SmallTitle SmallTitle={'Always give you promo on every Month / Event'} SmallDescription={'We make sure give you a lot of promo every motnh or event based on calendar. If you want, just Subscribe on Newsletter.'}></SmallTitle>
