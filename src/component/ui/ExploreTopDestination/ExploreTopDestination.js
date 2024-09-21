@@ -35,7 +35,7 @@ const ExploreTopDestination = () => {
                     NavegateLink={"/"}
                 ></CommonButton>
             </div>
-            <div className=''>
+            <div className=' pt-5'>
                 <TourCard></TourCard>
             </div>
         </div>
